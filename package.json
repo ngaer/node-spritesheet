@@ -10,10 +10,14 @@
         "type": "git",
         "url": "http://github.com/richardbutler/node-spritesheet.git"
     },
+	"scripts": {
+		"install": "coffee --compile --output ./lib ./src"
+	},
     "main": "./index",
     "dependencies": {
         "async": "~0.1.22",
         "q-fs": "~0.1.32",
-        "underscore": "~1.4.2"
+        "underscore": "~1.4.2",
+		"coffee-maker": "~0.1.0"
     }
 }
